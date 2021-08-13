@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+.main-kobe, .main-kg, .main-durant, .main-book {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photos-kobe, .photos-kg, .photos-durant, .photos-book {
+    display: flex;
+    flex-wrap: wrap;    
+    margin-bottom: 22px;
+}
+
+.photos-kobe img {
+    display: inline-block;
+    margin: auto;
+    margin-right: 12px;
+}
+
+.bio {
+    width: 800px;
+}
+
+.kobe-bio, .kg-bio, .durant-bio, .book-bio {
+    font-size: 1.6rem;
+    margin-bottom: 22px;
+}
